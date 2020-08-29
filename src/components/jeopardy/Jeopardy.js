@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import JeopardyService from '../../jeopardySerivce';
 import JeopardyDisplay from '../jeopardydisplay/JeopardyDisplay'
-import Contact from '../contact/Contact';
+
 
 //import our service
 
