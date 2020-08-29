@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 2;
+  padding: 2;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -12,17 +12,18 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-image: linear-gradient(to top, #ee7cce 0%, #a6c1ee 100%);
+  background-image: linear-gradient(to top, #eb5c5c 0%, #d3da7c 100%);
 }
 
 .App {
   background: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(150, 131, 131, 0.3);
+  border-radius: 3ch;
   padding: 1rem 2rem;
 }
 
 form > div {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 label {
@@ -39,6 +40,7 @@ button {
   background: #7067cfaa;
   padding: 4px;
   border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 1cm;
   color: white;
   font-size: 1rem;
   width: 100%;
@@ -49,13 +51,17 @@ button {
 }
 
 .Navigation {
-  margin-bottom: 1rem;
+  margin-bottom: 01rem;
+  font-size: 15px;
+  text-align: justify;
 }
 
 .Navigation ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 
 .Navigation li {
