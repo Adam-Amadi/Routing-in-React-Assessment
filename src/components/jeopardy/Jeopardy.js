@@ -31,7 +31,6 @@ class Jeopardy extends Component {
         let response = this.state.answer;
         let value = this.state.data.value;
         let valueScore = this.state.score;
-
         console.log(this.state.data.answer)
         console.log(this.state.data.value)
         console.log(this.state.score)
