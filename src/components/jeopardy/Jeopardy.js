@@ -26,10 +26,15 @@ class Jeopardy extends Component {
         })
     }
     submitClick = (event) => {
+
+        let score;
         let response = this.state.answer;
         let value = this.state.data.value;
         let valueScore = this.state.score;
-        let score;
+
+        console.log(this.state.data.answer)
+        console.log(this.state.data.value)
+        console.log(this.state.score)
         if (response === this.state.data.answer) {
             score = valueScore + value;
             alert('CORRECT ANSWER')
